@@ -1,0 +1,123 @@
+:root{
+    --corprincipal:white;
+    --corsecundaria:rgba(10, 56, 113, 1);
+    --coralternativa:gray; 
+}
+
+body{
+    background:white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1{
+    color:rgba(10, 56, 113, 1);
+    margin-right: 6%;
+}
+
+.cabecalho h1{
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color:rgba(10, 56, 113, 1);
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+    background: transparent;
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgba(10, 56, 113, 1);
+    border-radius: 20px;
+    width: 300px;
+    height: 380px;
+    padding: 10px;
+    margin-right: 7%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color:rgba(10, 56, 113, 1); 
+}
+
+.container-btn button{
+    border: 2px solid rgba(10, 56, 113, 1);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgba(10, 56, 113, 1);
+    width: 150px;
+    height:50px;
+    margin-left: 4%;
+    cursor: pointer;
+    font-weight:bolder;
+}
+
+.container-btn button:hover{
+    border: 2px solid gray;
+    transition: 0.5s all;
+}
+
+.btn-copiar{
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-decoration: none;
+    color:rgba(10, 56, 113, 1);
+    width: 150px;
+    height:50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px;
+    margin-top: 3px;
+    background-color:rgba(10, 56, 113, 1);
+    color: white;
+    text-align: center; 
+}
+
+.icons ion-icon{
+    width: 30px;
+    height: 30px;
+    color:white;
+    text-align: center;
+}
+
+.icons ion-icon:hover{
+    color:gray;
+}

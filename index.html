@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Codificador ONE</title>
+</head>
+
+<body>
+
+    <main class="main container">
+    <header class="cabecalho">
+        <img src="logoalura.svg">
+    </header>
+
+    <div class="container-input">
+    <div class="input">
+    <textarea  id="input-texto" placeholder="Digite o seu texto aqui..."></textarea>
+    Apenas letras minúsculas, sem acento e sem caracteres especiais.
+     </div>
+
+    <div id="output">
+    <h2>Sua mensagem aparecerá aqui!</h2> <br><br>
+    <img src="/boneco.svg">
+    </div>
+    </div>
+    
+
+    <div class="buttons">
+        <div class="container-btn">
+            <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+    </div>
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+    <a href="https://www.linkedin.com/in/suelenbraga-/"><ion-icon name="logo-linkedin"></ion-icon></a>
+    <a href="https://github.com/suelenbraga1"><ion-icon name="logo-github"></ion-icon></a>
+    <p><strong>Developed by Suelen Braga</strong></p>
+    </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </body>
+    </html>
