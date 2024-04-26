@@ -17,7 +17,7 @@ Este projeto foi desenvolvido como parte do Challenge One do programa Oracle Nex
 - Oferece a funcionalidade de descriptografar uma palavra criptografada, restaurando-a para sua forma original.
 - Suporta apenas letras minúsculas, excluindo acentos e caracteres especiais.
 
-📋 Instruções:
+## 📋 Instruções:
 
 1. Acesse a página da aplicação clicando [neste link.](https://suelenbraga1.github.io/codificador-de-texto-one/)
 2. No campo "Digite seu texto", insira o texto que você deseja criptografar ou descriptografar.
@@ -28,12 +28,12 @@ Este projeto foi desenvolvido como parte do Challenge One do programa Oracle Nex
 
 ## 👯 Clone este projeto:
  
-git clone <a href="https://github.com/suelenbraga1/decodificador-de-texto-one.git">
+git clone 
+<a href="https://github.com/suelenbraga1/decodificador-de-texto-one.git">
 Acessar
 cd decodificador-de-texto-one
-Instalar Live Server <a href="https://www.npmjs.com/package/live-server">
-
-
+Instalar Live Server 
+<a href="https://www.npmjs.com/package/live-server">
 
 ## 👾 Link da página no github pages:
 https://suelenbraga1.github.io/codificador-de-texto-one/
