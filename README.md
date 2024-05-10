@@ -25,16 +25,15 @@ Este projeto foi desenvolvido como parte do Challenge One do programa Oracle Nex
 4. O resultado será exibido no lado direito da tela.
 5. Se preferir, clique em "Copiar" para transferir o resultado para a área de transferência.
 6. Para atualizar a página, clique no ícone "a" no canto superior esquerdo da tela.
-
-## 👯 Clone este projeto:
- 
-git clone 
-<a href="https://github.com/suelenbraga1/decodificador-de-texto-one.git">
-Acessar
-cd decodificador-de-texto-one
-Instalar Live Server 
-<a href="https://www.npmjs.com/package/live-server">
+   
 
 ## 👾 Link da página no github pages:
 https://suelenbraga1.github.io/codificador-de-texto-one/
 
+
+## 👯 Clone este projeto:
+
+```bash
+$ git clone https://github.com/suelenbraga1/decodificador-de-texto-one.git
+# Acessar
+$ cd decodificador-de-texto-one
